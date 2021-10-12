@@ -1,206 +1,249 @@
-
-
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    width: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
 }
 
 header {
-    background-color: #3f3f3f;  
+  background-color: #3f3f3f;
 }
 
 h1 a {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 h2 {
-    font-size: 40px;
-    color: black;
-    font-weight: unset;
+  font-size: 40px;
+  color: black;
+  font-weight: unset;
 }
 
 nav {
-    position: relative;
+  position: relative;
 }
 
 ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 a {
-    margin: 10px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 25px;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 li {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /*PREVIEW*/
 
 #preveiw {
-    height: 750px;
-    width: auto;
-    background-image: url(images/home-header.jpg);
-    background-image: no-repeat;
+  height: 750px;
+  width: auto;
+  background-image: url(images/home-header.jpg);
+  background-image: no-repeat;
 }
 
 .showcase h2 {
-    font-size: 40px;
-    position: relative;
-    top: 100px;
-    left: 100px;
+  font-size: 40px;
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
 
 .showcase p {
-    position: relative;
-    background-color: crimson;
-    text-align: center;
-    border-radius: 10px;
-    height: 60px;
-    width: 300px;
-    top: 200px;
-    left: 400px;
+  position: relative;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 300px;
+  top: 200px;
+  left: 400px;
 }
-
-
 
 /*ITEM-LIST*/
 #list {
-    height: 500px;
-    width: auto;
+  height: 500px;
+  width: auto;
 }
 
 .item-list {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 100px;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  justify-content: space-between;
 }
 
 .item-list ul {
-    display: block;
-    margin-left: 75px;
-    margin-top: 25px;
+  display: block;
+  margin-left: 75px;
+  margin-top: 25px;
 }
 
 .item-list li {
-    list-style: initial;
+  list-style: initial;
 }
 
 .item-list img {
-    height: 400px;
-    width: auto;
-    border-radius: 50px;
-    margin-right: 100px;
+  height: 400px;
+  width: auto;
+  border-radius: 50px;
+  margin-right: 100px;
 }
 
 .item-list ul p {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: -75px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: -75px;
 }
 
 /*REVIEW-AREA*/
 
 #review {
-    height: 450px;
-    width: auto;
-    background-color: #eeeeee;
+  height: 450px;
+  width: auto;
+  background-color: #eeeeee;
 }
 
 .review-area {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #review h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #review p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #review p.name {
-    font-size: 30px;
-    margin: 10px 0;
-    margin-left: 75px;
+  font-size: 30px;
+  margin: 10px 0;
+  margin-left: 75px;
 }
 
 .box1 {
-    height: 400px;
-    margin: 25px;
-    width: 45%;
+  height: 400px;
+  margin: 25px;
+  width: 45%;
 }
 
 .box2 {
-    height: 400px;
-    margin: 25px;
-    width: 45%;
+  height: 400px;
+  margin: 25px;
+  width: 45%;
 }
 
 .box1 img {
-    height: 100px;
-    margin-top: 25px;
-    margin-left: 300px;
-    border-radius: 50%;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 300px;
+  border-radius: 50%;
 }
 
 .box2 img {
-    height: 100px;
-    margin-top: 25px;
-    margin-left: 300px;
-    border-radius: 50%;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 300px;
+  border-radius: 50%;
 }
 
 /*PODUCTS*/
+.products {
+  justify-content: space-between;
+}
 
 .products img {
-    height: 300px;
+  height: 300px;
 }
- .products h2 {
-     text-align: center;
-     margin: 25px;
- }
+.products h2 {
+  text-align: center;
+  margin: 25px;
+}
 
 .guitars {
-    display: flex;
-    width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .product {
-    margin-left: 20px;
+    margin: 0 50px;
+}
+
+.product img {
+    height: 250px;
 }
 
 .product button {
-    background-color: crimson;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    margin: 10px 0;
-    height: 30px;
-    width: 100px;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 30px;
+  width: 100px;
 }
 
 footer {
-    height: 100px;
-    width: auto;
-    background-color: #3f3f3f;
-    color: #fff;
-    font-size: 35px;
+  height: 100px;
+  width: auto;
+  background-color: #3f3f3f;
+  color: #fff;
+  font-size: 35px;
 }
 
 footer p {
-    text-align: center;
-    padding-top: 25px;
+  text-align: center;
+  padding-top: 25px;
 }
 
-/*GUITARS PAGE*/
+/*CONTACT*/
+form {
+    display: flex;
+    margin-left: 33%;
+}
+
+input {
+  display: block;
+  height: 30px;
+  width: 300px;
+}
+
+select {
+    height: 30px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+
+
+button {
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 60px;
+  width: 300px;
+  font-size: 25px;
+}
+
+#form {
+    text-align: center;
+  }
+
+/*GUITAR*/
+

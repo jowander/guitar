@@ -19,23 +19,29 @@
         </nav>
     </header>
         <main>
-            <section>
+            <section id="form">
                 <h2>Contact Us</h2>
-                <form action="">
-                    <label for="full name">Full Name: </label>
-                    <input type="text">
-                    <label for="email">Email: </label>
-                    <input type="text">
-                    <label for="guitar">Email us</label>
-                    <input type="checkbox">
-                    <select name="guitar" id="guitar">
-                        <option value="">Adirondack Red</option>
-                        <option value="">Adirondack Blue</option>
-                        <option value="">Adirondack Green</option>
-                    </select>
-                    <label for="">Message</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <form action="submit">
+                    <div class="info">
+                        <label for="name">Full Name: </label>
+                        <input type="text" name="name">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email">
+                        <label for="guitar">Guitar</label>
+                        <select name="guitar" id="guitar">
+                            <option value="add-adirondack-red">Adirondack Red</option>
+                            <option value="add-adirondack-blue">Adirondack Blue</option>
+                            <option value="add-adirondack-green">Adirondack Green</option>
+                        </select>
+                        <input type="checkbox">
+                        <label for="checkbox">Sign up for Email update</label>
+                    </div>
+                    <div class="text">
+                        <label for="comment">Message</label>
+                        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                    </div>
                 </form>
+                <button>Send Now</button>
             </section>            
         </main>   
         <footer>
