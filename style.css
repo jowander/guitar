@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "boots and spurs";
+  src: url("fonts/BootsAndSpurs.ttf");
+}
+
+h1,
+h2 {
+  font-family: "boots and spurs", Tahoma, Verdana, sans-serif;
+}
+
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -158,10 +167,6 @@ li {
 }
 
 /*PODUCTS*/
-.products {
-  justify-content: space-between;
-}
-
 .products img {
   height: 300px;
 }
@@ -170,21 +175,32 @@ li {
   margin: 25px;
 }
 
-.guitars {
+.guitars1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   align-items: center;
   margin-bottom: 20px;
+  column-gap: 20px;
+}
+
+.guitars2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  column-gap: 20px;
 }
 
 .product {
-    margin: 0 50px;
+  width: 20%;
 }
 
 .product img {
-    height: 250px;
+  height: 200px;
 }
 
 .product button {
@@ -212,8 +228,8 @@ footer p {
 
 /*CONTACT*/
 form {
-    display: flex;
-    margin-left: 33%;
+  display: flex;
+  margin-left: 33%;
 }
 
 input {
@@ -223,12 +239,10 @@ input {
 }
 
 select {
-    height: 30px;
+  height: 30px;
   width: 300px;
   margin-top: 50px;
 }
-
-
 
 button {
   background-color: crimson;
@@ -242,8 +256,23 @@ button {
 }
 
 #form {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-/*GUITAR*/
+/*GUITARS*/
 
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 30px;
+}
+
+.flex {
+  margin-top: 50px;
+  width: 30%;
+}
+
+.flex img {
+  height: 200px;
+}
