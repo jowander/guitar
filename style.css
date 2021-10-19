@@ -57,7 +57,7 @@ li:hover {
 /*PREVIEW*/
 
 #preveiw {
-    height: 750px;
+    height: 1000px;
     width: auto;
     background-image: url(images/home-header.jpg);
     background-image: no-repeat;
@@ -282,6 +282,37 @@ button {
 }
 
 /*GUITAR*/
-.select img {
-  height: 150px;
+.guitar-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.main-img {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 100px;
+}
+
+.big-picture {
+    height: 500px;
+}
+
+.small-picture {
+    height: 100px;
+}
+
+.select {
+    margin: 150px;
+}
+
+.select p {
+    width: 200px;
+}
+
+.row-view {
+    display: flex;
+    justify-content: space-between;
 }
