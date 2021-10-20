@@ -21,6 +21,7 @@ header {
 
 h1 a {
     font-size: 50px;
+    text-decoration: none;
 }
 
 h2 {
@@ -36,7 +37,6 @@ h2 {
 
 ul {
     list-style: none;
-    column-gap: 50px;
 }
 
 li {
@@ -50,7 +50,7 @@ a {
     font-size: 25px;
 }
 
-li:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -64,8 +64,9 @@ li:hover {
 }
 
 .showcase h2 {
-    font-size: 40px;
     position: relative;
+    display: inline-block;
+    font-size: 40px;
     top: 100px;
     left: 100px;
 }
@@ -236,16 +237,43 @@ form {
     margin-left: 33%;
 }
 
+.info {
+    margin-right: 50px;
+}
+
+.form {
+    text-align: center;
+}
+
 input {
-    display: block;
-    height: 30px;
+    border-radius: 10px;
+}
+
+input [type="checkbox"] {
+    transform: scale(2);
+    padding: 10px;
+
+}
+
+.name {
+    height: 40px;
     width: 300px;
 }
 
+label {
+    font-size: 16px;
+}
+
 select {
-    height: 30px;
+    border-radius: 10px;
+    height: 40px;
     width: 300px;
-    margin-top: 50px;
+}
+
+textarea {
+    height: 200px;
+    border-radius: 10px;
+    resize: none;
 }
 
 button {
@@ -259,12 +287,11 @@ button {
     font-size: 25px;
 }
 
-#form {
-    text-align: center;
+.send {
+    margin-left: 45%;
 }
 
 /*GUITARS*/
-
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -316,3 +343,5 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+

@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Guitar Kings</title>
-</head>
-<body>
-    <header>
-        <h1><a href="index.html">Guitar Kings</a></h1>
-        <nav id="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="guitars.html">Guitars</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Guitar Kings</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Guitar Kings</a></h1>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="guitars.html">Guitars</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <section id="form">
-                <h2>Contact Us</h2>
+                <h2 class="form">Contact Us</h2>
                 <form action="submit">
-                    <div class="info">
-                        <label for="name">Full Name: </label>
-                        <input type="text" name="name">
-                        <label for="email">Email: </label>
-                        <input type="email" name="email">
-                        <label for="guitar">Guitar</label>
-                        <select name="guitar" id="guitar">
-                            <option value="add-adirondack-red">Adirondack Red</option>
-                            <option value="add-adirondack-blue">Adirondack Blue</option>
-                            <option value="add-adirondack-green">Adirondack Green</option>
-                        </select>
-                        <input type="checkbox">
-                        <label for="checkbox">Sign up for Email update</label>
-                    </div>
+                    <ul class="info">
+                        <li><label for="name">Full Name: </label></li>
+                        <li><input class="name" type="text" name="name" /></li>
+                        <li><label for="email">Email: </label></li>
+                        <li><input class="name" type="email" name="email" /></li>
+                        <li><label for="guitar">Guitar:</label></li>
+                        <li>
+                            <select name="guitar" id="guitar">
+                                <option value="add-adirondack-red">
+                                    Adirondack Red
+                                </option>
+                                <option value="add-adirondack-blue">
+                                    Adirondack Blue
+                                </option>
+                                <option value="add-adirondack-green">
+                                    Adirondack Green
+                                </option>
+                            </select>
+                        </li>
+                        <li><input type="checkbox"/>
+                            <label for="checkbox"
+                                >Sign up for Email update</label
+                            >
+                        </li>
+                    </ul>
                     <div class="text">
-                        <label for="comment">Message</label>
-                        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                        <ul>
+                            <li><label for="comment">Message</label></li>
+                            <li>
+                                <textarea
+                                    name="comment"
+                                    id=""
+                                    cols="30"
+                                    rows="10"
+                                ></textarea>
+                            </li>
+                        </ul>
                     </div>
                 </form>
-                <button>Send Now</button>
-            </section>            
-        </main>   
+                <button class="send">Send Now</button>
+            </section>
+        </main>
         <footer>
             <p>Copyright &copy</p>
         </footer>
-        
-</body>
+    </body>
 </html>
